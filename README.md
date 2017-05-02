@@ -77,6 +77,7 @@ localStorage.del(tableName, id, callback);
 Função para retornar uma inserção da tabela
 
 ######parâmetros:
+
 | Tipo         | Variavel       | Exemplo |
 | ------------ | -------------  | ------------- |
 | String | tableName | Ex: 'Clientes' |
