@@ -41,11 +41,12 @@ var localStorage = new localStorage({
 Função para inserir dados da tabela do banco de dados
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo       |
------------- | -------------  | ------------- |
-String | tableName | Ex: 'Clientes' |
-Object | fields | Ex: { nome: "Bruno", email: "email@gmail.com" } |
-Function | callback | Ex: function(data) { console.log(data); } |
+
+| Tipo         | Variavel       | Exemplo       |
+| ------------ | -------------  | ------------- |
+| String | tableName | Ex: 'Clientes' |
+| Object | fields | Ex: { nome: "Bruno", email: "email@gmail.com" } |
+| Function | callback | Ex: function(data) { console.log(data); } |
 
 ######retorno:
 Object
