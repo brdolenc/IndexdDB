@@ -59,11 +59,12 @@ localStorage.insert(tableName, fields, callback);
 Função para deletar dados da tabelas
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo
------------- | -------------  | -------------
-String | tableName | Ex: 'Clientes'
-int | id | Ex: 21
-Function | callback | Ex: function(data) { console.log(data); }
+
+| Tipo         | Variavel       | Exemplo |
+| ------------ | -------------  | ------------- |
+| String | tableName | Ex: 'Clientes' |
+| int | id | Ex: 21 |
+| Function | callback | Ex: function(data) { console.log(data); } |
 
 ######retorno:
 Object
@@ -76,11 +77,11 @@ localStorage.del(tableName, id, callback);
 Função para retornar uma inserção da tabela
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo
------------- | -------------  | -------------
-String | tableName | Ex: 'Clientes'
-int | id | Ex: 21
-Function | callback | Ex: function(data) { console.log(data); }
+| Tipo         | Variavel       | Exemplo |
+| ------------ | -------------  | ------------- |
+| String | tableName | Ex: 'Clientes' |
+| int | id | Ex: 21 |
+| Function | callback | Ex: function(data) { console.log(data); } |
 
 ######retorno:
 Object
@@ -93,10 +94,11 @@ localStorage.get(tableName, id, callback);
 Função para retornar todas inserções da tabela
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo
------------- | -------------  | -------------
-String | tableName | Ex: 'Clientes'
-Function | callback | Ex: function(data) { console.log(data); }
+
+| Tipo         | Variavel       | Exemplo |
+| ------------ | -------------  | ------------- |
+| String | tableName | Ex: 'Clientes' |
+| Function | callback | Ex: function(data) { console.log(data); } |
 
 ######retorno:
 Object
@@ -109,12 +111,13 @@ localStorage.getAll(tableName, callback);
 Função para atualizar uma inserção da tabela
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo
------------- | -------------  | -------------
-- String | tableName | Ex: 'Clientes'
-- int | id | Ex: 21
-- Object | fields | Ex: { nome: "Bruno", email: "email@gmail.com" }
-- Function | callback | Ex: function(data) { console.log(data); }
+
+| Tipo         | Variavel       | Exemplo |
+| ------------ | -------------  | ------------- |
+| - String | tableName | Ex: 'Clientes' |
+| - int | id | Ex: 21 |
+| - Object | fields | Ex: { nome: "Bruno", email: "email@gmail.com" } |
+| - Function | callback | Ex: function(data) { console.log(data); } |
 
 ######retorno:
 Object
@@ -127,12 +130,13 @@ localStorage.put(tableName, id, fields, callback);
 Função para retornar uma inserção da tabela através de uma index
 
 ######parâmetros:
-Tipo         | Variavel       | Exemplo
------------- | -------------  | -------------
-String | tableName | Ex: 'Clientes'
-String | indexName | Ex: 'email'
-String | value | Ex: 'email@hotmail.com'
-Function | callback | Ex:  function(data) { console.log(data); }
+
+| Tipo         | Variavel       | Exemplo |
+| ------------ | -------------  | ------------- |
+| String | tableName | Ex: 'Clientes' |
+| String | indexName | Ex: 'email' |
+| String | value | Ex: 'email@hotmail.com' |
+| Function | callback | Ex:  function(data) { console.log(data); } |
 
 ######retorno:
 Object
